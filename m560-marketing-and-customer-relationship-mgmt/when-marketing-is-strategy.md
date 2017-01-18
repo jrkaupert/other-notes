@@ -1,5 +1,6 @@
 # My Notes from *When Marketing IS Strategy* #
 Reference:
+
 Dawar, N. (2013). When Marketing Is Strategy. *Harvard Business Review, 91*(12), 100-108.
 
 ## Key takeaways ##
