@@ -1,5 +1,6 @@
 # My Notes from *The Ultimate Marketing Machine* #
 Reference:
+
 De Swaan Arons, M., van den Driest, F., & Weed, K. (2014). The Ultimate Marketing Machine. *Harvard Business Review, 92*(7/8), 54.
 
 ## Key takeaways ##
