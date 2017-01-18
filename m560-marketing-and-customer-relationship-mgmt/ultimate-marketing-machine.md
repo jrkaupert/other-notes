@@ -1,6 +1,6 @@
 # My Notes from *The Ultimate Marketing Machine* #
 Reference:
-•	De Swaan Arons, M., van den Driest, F., & Weed, K. (2014). The Ultimate Marketing Machine. *Harvard Business Review, 92*(7/8), 54.
+De Swaan Arons, M., van den Driest, F., & Weed, K. (2014). The Ultimate Marketing Machine. *Harvard Business Review, 92*(7/8), 54.
 
 ## Key takeaways ##
 - best orgs are:
@@ -32,6 +32,7 @@ before worrying about reorg
   - Basic drives / "universal human truths" used to understand consumers
 - Positioning
   - best orgs hit on all three parts of brand purpose
+
     1. functional benefits - the functions served by the item/brand being bought
     such as the caffeine boost from Starbucks
     2. emotional benefits - the emotional fulfillment offered by the brand, such
@@ -52,6 +53,7 @@ before worrying about reorg
 - All employees must have the same vision
 
 Five drivers of organizational effectiveness:
+
 1. Connect marketing to business strategy and rest of organization (builds
   trust)
 2. Inspire the org by showing purpose of the brand to everyone in the org (
