@@ -1,4 +1,5 @@
 # Lecture 1 #
+My notes
 
 Testing is an investigation
 - of a product
@@ -29,7 +30,7 @@ Stakeholder:
   - Anyone affected by results of a product
   - Anyone affected by results of a service
 
-> Quality is value to some person
+> "Quality is value to some person"
 > -- Jerry Weinberg
 
 Two components to quality
@@ -42,7 +43,7 @@ quality differently for the same product based on their values
 Different people testing will look for different things, for different
 types of stakeholders
 
-> Any threat to the value of the product to any stakeholder who matters.
+> "Any threat to the value of the product to any stakeholder who matters."
 > -- James Bach
 
 **A bug (software error)** - anything that takes away from the quality of a
@@ -132,3 +133,13 @@ collection of functions (features)
 
 **Parafunctional** or **Nonfunctional** testing = deals with anything not
 functional.  Could include MANY things.
+
+**Acceptance Testing** = testing done to determine whether the customer should
+accept software.  May also be used to describe when testing is done to
+determine if a product is ready for sale, but this is not the focus of BBST.
+Traditional acceptance testing is run by the *customer*, not the *developer*
+
+**Independent Testing** = testing that is not influenced by the development
+team.  External testing is not always independent (external labs can be
+influenced too).  Independent testing also does not have to be external.  
+Internal groups can be set up as long as they aren't influenced internally.
