@@ -45,7 +45,7 @@ better than rivals.  Include various management innovations such as total
 quality, JIT, benchmarking, business process reengineering, outsourcing
 
 **Sustainable competitive advantage cannot happen through operational
-effectiveness alone.**
+effectiveness alone because everyone is doing them**
 
 Strategy requires being different.  Copying rivals leads to mutually destructive
 price competition, not sustainable competitive advantage
