@@ -35,3 +35,17 @@ average inventory
 total inventory in a year = Q/2 = cycle inventory
 
 holding cost implies an alternate investment opportunity
+
+h = unit inventory holding cost
+c = unit cost
+i = interest rate / cost of capital
+k = actual storage cost (not always present)
+
+h = c * i + k
+
+Total Annual Holding Cost (TAHC) = h * Q/2
+
+S = fixed order cost
+s = dropoff cost, other costs (not always present)
+
+Total Annual Ordering Cost (TAOC) = (S + s) * n = (S + s) * D/Q
