@@ -322,20 +322,52 @@ answers.
 
 Consistency with Image Heuristic
 Research
+Do some investigation into the company image, both internal to the company
+and external to the company.  Identify what people think of the company in
+a few words, and ask if the presence of this type of bug is inconsistent with
+the overall image of the company.  If it is consistent, ask if this bug is
+consistent with the image the company would like to have.
 
 Example
+If the bug is inconsistent with company image, report it to management as such
+and identify the possibility that leaving such a bug unfixed would possibly
+alter company image negatively.  If the bug is consistent with company image,
+report to management that such a company image is not desirable and the bug
+should be fixed in order to help improve company image for the future.
 
 Consistency with Comparable Products Heuristic
 Research
+Look at similar word processing products and identify how they handle footnotes
+and how they handle saving.  If no obvious problems exist in either of these
+areas (not just the exact issue seen here), the issue in this product is
+inconsistent with comparable products.  If similar issues exist in other
+similar products, the bug should still be fixed so the company's product looks
+better against competitors.
 
 Example
-
+Report to management that comparable problems do not have any issues with saving
+or handling of footnotes, and that this issue is inconsistent with the way
+similar products work.  Not only would users not expect such behavior, but
+it would reflect poorly on the product compared to competitors.  Thus, it should
+be fixed to avoid violating user expectations and to remain competitive in the
+marketplace.
 
 Consistency within Product Heuristic
 Research
+Look at other areas of the product (outside of footnotes and saving) to see if
+similar behaviors occur elsewhere.  If issues like this are not present, the
+product is inconsistent with itself.  If issues like this are present, all such
+issues are inconsistent with the working parts of the product and should be
+fixed together.
 
 Example
-
+If this is the only type of issue across various parts of the product, report
+to management that it should be fixed because this is inconsistent and would
+violate user expectations because the rest of the product does not exhibit
+such strange behavior.  If other similar issues exist in other areas, report
+to management that they should all be fixed because they are inconsistent with
+the parts of the product that work well, and collectively violate user
+expectations.
 
 ## L3: The Defect Arrival Rate ##
 > What is the Defect Arrival Rate? Some authors model the defect arrival rate
@@ -346,17 +378,44 @@ testing of the product and two of the pressures they are likely to face near
 the end of the project.
 
 Definition of Defect Arrival Rate
+The Defect Arrival Rate is an expression of the number of new bugs found
+in a system per week.
 
 Description of Weibull Probability Distribution
+The Weibull curve expresses bugs per week on a vertical axis against week
+on a horizontal axis to graphically display how many new bugs are being
+found over time in a project.  It is characterized by a sharp, initial peak,
+followed by a similar sharp dropoff, followed by a relatively flat section.
+The peak occurs relatively early in the project cycle, with the flat portion
+of the curve consuming most of the later half of the project cycle.  The curve
+is used by some to estimate project completion date based on number of bugs
+being found.
 
 Description & Explanation of Pressures
-Early Pressure \#1
+Early Pressure 1
+Testers will be expected to find lots of bugs early.  Testers may be pressured
+to find as many trivial bugs as possible while ignoring tests that could provide
+information about high-risk areas of the product that could take more time
+to identify.  Since management may use this curve to predict a completion date,
+the pressure will be to find the most bugs possible early on so the sharp peak
+occurs as fast as possible.
 
-Early Pressure \#2
+Early Pressure 2
+If a solid project deadline exists, testers may feel compelled to spend less
+time searching for bugs once the project reaches the point where the peak
+"should" be reached according to the model in order to make sure the number of
+ bugs found continues to match the model.
 
-Late Pressure \#1
+Late Pressure 1
+Testers may feel compelled to not report bugs late in the project in order to
+make sure the defect arrival rate matches the curve, or may feel pressures to
+hold off on reporting bugs found in one week until the next week in order to
+keep the rate of reported bugs relatively constant.  
 
-Late Pressure \#2
+Late Pressure 2
+Testers may feel pressured to run the same sets of regression tests that will
+almost certainly pass rather than trying new tests that run the risk of failing.
+
 
 ## L4: Easter Eggs ##
 > SoftCo publishes software. Their president hates Easter Eggs and has
@@ -377,16 +436,45 @@ from using code coverage to measure what has been tested. Describe some
 benefits and some risks of each type of use. (In total, across the two uses,
 describe three benefits and three risks.)
 
-Code Coverage for Measuring What's Not Been Tested
+Code coverage used to highlight what has not been tested involves looking at the
+code coverage from the perspective of "what's left" or "where might there be
+risk".  Code coverage used to measure what has been tested looks at showing
+that one particular type of testing (things that can be measured by code
+  coverage) may be complete, but not at how much testing of the entire product
+  across types of testing may be complete.
+
+Code Coverage for Highlighting What's Not Been Tested
 Benefits
+- Code coverage provides an easy indicator of sections of code that have
+definitely not been exercised, providing a simple indicator of where additional
+attention is warranted.  Such sections are obvious choices for additional
+testing.
+- Tools exist to assess code coverage, so the cost of applying such a measure
+is relatively low, while risk in areas not covered may be high so knowing these
+areas is valuable.  Useful info may be gained for relatively low cost in terms
+of time or money spent testing.
 
 Risks
+- Not all areas of product risk will be identified by areas where there is not
+complete code coverage, as code coverage only indicates certain types of testing
+have been completed.
 
 Code Coverage for Measuring What's Been Tested
 Benefits
+- Code coverage shows that a particular type of testing has been completed,
+which provides some information about the product quality, although only about
+that particular type of testing.
 
 Risks
-
+- There are many types of tests that code coverage metrics do not provide
+information about.  Using code coverage metrics as a means of understanding
+what's been tested may give an illusion of product quality that is not
+meaningful.  For example, things tested as a part of code coverage will not
+likely stress the system with heavy load or exercise common use cases of the
+product where interrupts greatly affect the system's behavior.
+- Use of code coverage to measure what has been tested may incentivize the
+stopping of testing early than necessary, as managers may stand behind the
+value as justification to ship product despite other tests not being complete.
 
 ## L6: Primary Information Objectives ##
 > Suppose that a test group's mission is to achieve its primary information
@@ -394,19 +482,57 @@ objective. Consider (and list) three different objectives. For each one, how
 would you focus your testing? How would your testing differ from objective to
 objective?
 
-Objective 1
-- The objective itself
-- How to focus the testing
+Objectives:
+1. Does the product conform to its specifications?
+2. Is the product worth acquiring?
+3. Is the product ready to ship?
 
-Objective 2
-- The objective itself
-- How to focus the testing
+How to focus the testing
+1. Does the product conform to its specifications?
+For determining if this objective is met, testing should be focused on running
+test cases associated with each requirement in the specification.  Records
+should be kept in a spreadsheet or similar to identify which test cases have
+been run, their status, and any relevant notes that merit discussion with
+stakeholders arising from the tests.  Once all tests have been run, the
+primary information objective has been completed.
 
-Objective 3
-- The objective itself
-- How to focus the testing
+2. Is the product worth acquiring/using?
+For determining if a product is worth acquiring from another company, or buying
+for use in your own company's product, testing should focus on two key elements:
+  1. Scenario testing to determining if the product appears to work as
+  advertised. Specific scenarios that involve using the product as a user might
+  in order to accomplish specific goals should be run.
+  2. A list of obvious bugs should be populated from exploratory testing of the
+  product.  Consistency heuristics could be applied to determine some of these,
+  particularly if things are inconsistent within the product or with the image
+   of your own company.
+Once these tests are complete, the primary information objective has been
+completed.
+
+3. Is the product ready to ship?
+For determining if a product is ready to ship, the focus of testing should be on
+making sure new features work as intended and that old features have not been
+broken.  Scenario testing and feature testing of the new features should be
+performed, and regression testing of old features.  Once the tests are complete,
+the primary information objective has been completed.
+
 
 Differences between testing across objectives
+The primary difference across these objectives is the breadth of testing and
+areas being focused.  The first objective uses a specification to determine what
+should be tested. The second objective uses use-cases and holistic exploration
+of the product to obtain information. The third objective uses new features and
+important old features as a gauge of product quality.
+
+A second difference in testing across these objectives is the documentation
+required for each is likely to be different.  The first objective will need
+detailed documentation regarding the status of every test case that has passed
+or failed to support management and/or customer sign-off. The second objective
+will need documentation of use cases run, and any use cases that failed, as well
+as any bugs that might need to be corrected if the product is acquired or
+licensed.  The third objective will need some supporting documentation of which
+features were tested and which regression plan was run, but may be flexible in
+just how much documentation is needed.
 
 ## L7: Using Consistency Heuristics ##
 > While testing a browser, you find a formatting bug. The browser renders
@@ -451,14 +577,26 @@ would you expect to get with each oracle?
 > Note: Don’t just echo back a consistency heuristic. Be specific in your
 description of a relevant oracle.
 
-Oracle 1
-- expected information
+Oracle 1: Regression Test Oracle
+- Using a regression test oracle would compare results of new builds against
+results of older builds.  The automated test would provide information any time
+new builds produce different results than the previous build, which will
+identify the possibility of bugs introduced by the changes.  Since the program
+is known to work correctly already, this oracle would be an ideal fit for
+automation.
 
-Oracle 2
-- expected information
+Oracle 2: Self-Verifying Data
+- Using self-verifying data would allow automated tests to check results against
+embedded responses, which would be easy to implement for a spreadsheet program.
+Such tests would be expected to provide information on whether or not spreadsheet
+functions and logic are working correctly, as these functions or logic would
+output incorrect values if broken.
 
-Oracle 3
-- expected information
+Oracle 3: Constraints
+- Data could be checked automatically within certain bounding constraints to
+identify if fields and functions produce odd values associated with coding
+errors.  Similar to self-verifying data, constraints would allow automated
+tests to catch some basic issues added in new versions.
 
 ## L9: Measurement ##
 > Kaner and Bond define measurement as follows: “Measurement is the
@@ -480,16 +618,49 @@ percentage) of their height to the tallest student’s height.
   1. Briefly describe three problems with this proposed measure.
 
 Does this fit the definition of measurement?
-- Yes / no
-- Justification
+- No
+- Empirical -> Yes
+- Objective -> Yes
+- Assignment of numbers -> Yes
+- To attributes (grades) of objects (students) -> Yes
+- According to a rule derived from a model (no) or theory (no) -> No, not based
+on a model or theory.
+- With the intent of describing them -> Yes, the intent is to grade people based
+on their height.  The grade describes the relative height of students in the
+class.
 
 Is this a surrogate measure
-- Yes/no
-- Justification
+- If the professor believes academic performance is related to height of
+students, then yes, this is a surrogate measure, because height is not a direct
+measure of academic performance.
+- If the professor does not believe academic performance is related to height of
+students and is arbitrarily assigning grades based on height rather than
+assuming a relationship between the two exists, then this is not a surrogate
+measure, but an arbitrary mapping.
 
 Problems with the measure
 Problem 1
+If there is not a relationship between academic performance and height, such
+a measure is meaningless, as grades are typically a reflection of academic
+performance.  Using height as a measure of academic performance in this case
+would provide useless information.
 
 Problem 2
+Even if there is a relationship between academic performance
+and height, the usage of a ratio based on the tallest person in the class
+means that classes with different tallest heights will spread grades differently.
+For example, if class A has someone 72 inches tall (tallest person who would
+  get 100), then someone 36 inches tall in the same class will get a 50.  If
+class B has the tallest person at 60 inches tall, someone 36 inches tall will
+get a 60.  Using this measure to assign grades would have significant variations
+depending on the tallest student's height relative to other students, and thus
+would not provide useful information about academic performance, even if
+some relationship actually exists between height and academics.  Thus, it is
+not a "fair" measure for evaluating students.
 
 Problem 3
+Using this as a measure of academic performance would eliminate incentives for
+students to learn or try in a class, as no amount of effort would change their
+grade.  Additionally, rewarding height with grades might cause shorter students
+to bully taller students in an effort to have them not take the same classes
+or even drop classes in the middle of the term.
