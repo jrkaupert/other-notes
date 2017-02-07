@@ -286,9 +286,22 @@ two information objectives: “Assess conformance to specifications” versus
 might it be different under these objectives.
 
 Similarities
-1.
-2.
+1. Both methods would likely explore the areas of the product that are most
+at risk for customer-facing issues.  Since specifications likely identify
+functionality that is most commonly used by the user, and since one major
+reason to block a premature release would be for functionality that is most
+widely used by the customer, both types of testing would likely cover the
+same or similar feature sets.  Additionally, both objectives lend themselves
+to a similar stopping criteria, based on some predefined set of tests.
+2. Both methods would likely be time-boxed.  Assessing conformance to
+specifications is generally given a fixed amount of time in a schedule for
+completion, and blocking premature product releases would likely have a
+deadline for assessing a Go/No-Go decision.  In contrast to other testing
+objectives such as general product quality assessment that might have no clear
+deadline, both of these objectives would lend themselves to deadlines as
+they occur near the software release point of the development cycle.
 3.
+
 
 Differences
 1.
@@ -350,13 +363,13 @@ Definition of Defect Arrival Rate
 Description of Weibull Probability Distribution
 
 Description & Explanation of Pressures
-Early Pressure \#1
+Early Pressure 1
 
-Early Pressure \#2
+Early Pressure 2
 
-Late Pressure \#1
+Late Pressure 1
 
-Late Pressure \#2
+Late Pressure 2
 
 ## L4: Easter Eggs ##
 > SoftCo publishes software. Their president hates Easter Eggs and has
@@ -366,6 +379,9 @@ Easter Eggs and when to declare the job done. How will you decide when you have
 finished this task? Present your ideas, their strengths and weaknesses.
 
 Finishing Criteria
+1. Time-box
+3. Build credibility with devs and see if you can get them to spill information
+about any possible Easter Eggs
 
 Strengths of Criteria
 
