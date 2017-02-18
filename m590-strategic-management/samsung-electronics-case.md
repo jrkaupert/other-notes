@@ -1,3 +1,9 @@
+James Kaupert
+
+M590
+
+2/7/2017
+
 # Notes from Samsung Electronics Case #
 From Dess, McNamara, & Eisner *Strategic Management*
 

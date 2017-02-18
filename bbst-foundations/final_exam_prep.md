@@ -406,14 +406,6 @@ being found.
 
 Description & Explanation of Pressures
 Early Pressure 1
-<<<<<<< HEAD
-
-Early Pressure 2
-
-Late Pressure 1
-
-Late Pressure 2
-=======
 Testers will be expected to find lots of bugs early.  Testers may be pressured
 to find as many trivial bugs as possible while ignoring tests that could provide
 information about high-risk areas of the product that could take more time
@@ -436,8 +428,6 @@ keep the rate of reported bugs relatively constant.
 Late Pressure 2
 Testers may feel pressured to run the same sets of regression tests that will
 almost certainly pass rather than trying new tests that run the risk of failing.
-
->>>>>>> 01f494ceb2a19fa3971db3b942ce151b653e5638
 
 ## L4: Easter Eggs ##
 > SoftCo publishes software. Their president hates Easter Eggs and has
@@ -576,17 +566,17 @@ is a defect that should be fixed?
   - Describe research that this heuristic suggests to you
   - Describe an argument that you can make on the basis of that research
 
-Heuristic 1
+Heuristic 1: Comparable products
 - Name
 - Research
 - Argument that can be made
 
-Heuristic 2
+Heuristic 2: History
 - Name
 - Research
 - Argument that can be made
 
-Heuristic 3
+Heuristic 3: Company Image
 - Name
 - Research
 - Argument that can be made
