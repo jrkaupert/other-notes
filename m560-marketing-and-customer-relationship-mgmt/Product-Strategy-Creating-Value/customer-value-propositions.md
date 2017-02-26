@@ -84,15 +84,62 @@ better business performance
     - very few suppliers actually go through this process
 
 ## Which Alternative Conveys Value to Customers? ##
+| Value Proposition | All Benefits| Favorable Points of Difference | Resonating Focus |
+| :------------- | :------------- | :------------- |
+| Consists Of:   | As many benefits as can be listed for an offering | Favorable points of difference an offering has compared to next best alternative | 1-2 Key differences, possibly a point of parity, where greatest value is delivered to customer |
+| Answers the question: | "Why should our company buy your offering?" | "Why should we pick yours over your competitor's?" | "What is most important for us to consider about your offering?" |
+| Requires: | Knowledge of own offering | Knowledge of own offering and next best alternative | Knowledge of how own offering delivers greater value to customers than next best alternative |
+| Pitfalls: | Benefit Assertion | Value Presumption | Requires detailed customer value research |
 
 ## Substantiate Customer Value Propositions ##
+- "We can save you money" is generic and overused, and most suppliers cannot
+actually back this up
+- must be able to actually prove the value that can be provided
+- **Value Word Equations** = expression using both words and mathematical
+operators to show differences in one offering vs NBA, and how those differences
+can be measured in dollars
+  - information required may come from customer business operations, but could
+  also come from outside sources
+  - may use industry jargon to persuasively communicate details
 
 ## The Building Blocks of a Successful Customer Value Proposition ##
+- supplier offerings may have many technical, economic, service, or social
+benefits for customers
+  - most likely, so do competitors' offerings
+- key question: "How do your offering's benefits that provide value compare to
+those of the next best alternative?"
+- three types of value:
+  1. points of parity = similar/same performance as NBA
+  2. points of difference = areas where offering is better/worse than NBA
+  3. points of contention = areas where supplier and customer are in
+  disagreement about value difference between offering and NBA
 
 ## Demonstrate Customer Value in Advance ##
-
-## Transforming a Weak Value Proposition ##
+- Customers need to see the expected savings or added value from your offering
+compared to the NBA
+- **Value Case Histories** = documentation of the cost savings or value added
+by an offering for customers that have already used the offering
+- **Value Calculators** = tools to assess estimated value a customer would
+receive from the offering, often spreadsheet software or similar, used in
+consultative selling
 
 ## Document Customer Value ##
+- merely demonstrating value is necessary but not sufficient for top companies
+- cost savings and increase profits must be documented to the companies that
+use them
+- must work with customer to agree on how savings or profits will be tracked
+so that actual results from using the offering can be documented
+- suppliers gain knowledge over time as they use the documenting process to
+better understand how they provide value to customers, and how such value
+varies across different types of customers
+  - improves future predictions of cost savings and added value
+  - can even offer guarantees to prospective customers as a risk-reduction
+  based on this knowledge
 
 ## Superior Business Performance ##
+- customer value propositions, executed properly, can make a big impact on
+business strategy and overall performance
+- can be used on scorecards as ways to assess whether or not profitable growth
+can be attained from such offerings
+- can be integrated into overall business strategy as a key element for
+providing superior value to customers
