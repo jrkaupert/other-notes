@@ -94,10 +94,27 @@ revolution
       - share of voice
       - customer lifetime value
   - **assist rates** = indirect effects of interactions between advertising media
+  - can help determine social media actual effects on short and long-term revenue and brand equity
 2. Optimization = running scenarios with predictive analytics for planning purposes
+  - run what-ifs of your own or competitor actions
+  - can identify elasticity for each measure (ratio of percentage change in one variable to the percentage
+  change in another)
+  - can use "war games" to see how elasticities of drivers affect results to try to reach marketing goals
+  developed by team members (revenue targets, market share goals, margin goals)
+  - can identify how to shift dollars from national advertising to local advertising for gains without 
+  changing overall budget spent
 3. Allocation = redistributing resources across marketing efforts in real-time
-- these activities occur in real-time in practice
-
-
+  - setting a marketing plan and letting it play out over a year is becoming less and less common
+- these activities occur in real-time in practice, not in sequence
 
 ## Five Steps to Implementation ##
+- analytics is becoming a part of daily strategy and operations
+- marketing is becoming a war of knowledge, insight, and asymmetric advantage
+
+1. Embrance Analytics 2.0 in a firm-wide initiative with a C-level sponsor
+2. Identify an analytics-focused director/manager to lead the effort
+3. Develop prioritzed list of questions you want answers for, and inventory what data is available already
+  - consolidate data sets, integrate systems
+4. Start small with proof-of-concepts in small segments, using models with limited scope for early wins
+5. Test aggressively, and provide the results as inputs to the model to refine it
+  - consider external help once complexity gets to be too much for the organization
